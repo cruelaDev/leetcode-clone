@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: /changes/13.01.2024-init/13.01.2024-init.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: /changes/18.01.2024-create-role-permission-table/18.01.2024-create-role-permission-table.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: /changes/20.01.2024-create-default-permissions-and-roles/20.01.2024-create-default-permissions-and-roles.yaml
+      relativeToChangelogFile: true

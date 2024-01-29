@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-default-permissions-and-roles
+      author: developercruela@gmail.com
+      changes:
+        - sqlFile:
+            path: 20.01.2024-create-default-permissions-and-roles.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: create-problem-and-topic-tables
+      author: developercruela@gmail.com
+      changes:
+        - sqlFile:
+            path: 20.01.2024-create-problem-and-topic-tables.sql
+            relativeToChangelogFile: true

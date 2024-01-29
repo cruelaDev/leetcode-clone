@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: postgres
+    password: leetcode
+    url: jdbc:postgresql://localhost:5433/postgres
+  jpa.show-sql: true
+leetcode:
+  otp:
+    retry-wait-time: 60 # in seconds
+    retry-count: 3
+    time-to-live: 3600 # in seconds
+  notification:
+    sms:
+      eskiz: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDgwODk0NTEsImlhdCI6MTcwNTQ5NzQ1MSwicm9sZSI6InRlc3QiLCJzdWIiOiI1ODY4In0.CtR4hhlo4Y0W-RxVAffQEGlW4gpsWFY-4toDRqvxMBQ
